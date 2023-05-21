@@ -72,43 +72,78 @@ Some of the methods include:
 - `GetProgress()` - Gets the progress of a download.
 - `IsFinished()` - Checks if a download is finished.
 
-### Webview2.ahk 
-https://github.com/thqby/ahk2_lib/WebView2
+### Webview2.ahk
 
-WebView2.create: Creates a new WebView2 control.
-WebView2.navigate: Navigates the WebView2 control to the specified URL.
-WebView2.loadHtml: Loads the specified HTML into the WebView2 control.
-WebView2.evaluateScript: Evaluates the specified JavaScript in the WebView2 control.
-WebView2.getHtml: Gets the HTML of the current page in the WebView2 control.
-WebView2.getTitle: Gets the title of the current page in the WebView2 control.
-WebView2.getUrl: Gets the URL of the current page in the WebView2 control.
-WebView2.getSettings: Gets the settings for the WebView2 control.
-WebView2.setSettings: Sets the settings for the WebView2 control.
-WebView2.addScript: Adds a script to the WebView2 control.
-WebView2.removeScript: Removes a script from the WebView2 control.
-WebView2.getScripts: Gets the scripts in the WebView2 control.
-WebView2.addStyle: Adds a style to the WebView2 control.
-WebView2.removeStyle: Removes a style from the WebView2 control.
-WebView2.getStyles: Gets the styles in the WebView2 control.
-WebView2.getDocument: Gets the document for the current page in the WebView2 control.
-WebView2.getWindow: Gets the window for the current page in the WebView2 control.
-WebView2.getFrame: Gets the frame for the current page in the WebView2 control.
-WebView2.getFrames: Gets the frames for the current page in the WebView2 control.
-WebView2.getCookies: Gets the cookies for the current page in the WebView2 control.
-WebView2.setCookies: Sets the cookies for the current page in the WebView2 control.
-WebView2.clearCookies: Clears the cookies for the current page in the WebView2 control.
-WebView2.getHistory: Gets the history for the current page in the WebView2 control.
-WebView2.goBack: Goes back one page in the history for the current page in the WebView2 control.
-WebView2.goForward: Goes forward one page in the history for the current page in the WebView2 control.
-WebView2.reload: Reloads the current page in the WebView2 control.
-WebView2.stop: Stops loading the current page in the WebView2 control.
-WebView2.zoomIn: Zooms in on the current page in the WebView2 control.
-WebView2.zoomOut: Zooms out on the current page in the WebView2 control.
-WebView2.resetZoom: Resets the zoom level for the current page in the WebView2 control.
-WebView2.fullScreen: Enters full screen mode for the current page in the WebView2 control.
-WebView2.exitFullScreen: Exits full screen mode for the current page in the WebView2 control.
-WebView2.print: Prints the current page in the WebView2 control.
-WebView2.dispose: Disposes of the WebView2 control.
+[GitHub Repository](https://github.com/thqby/ahk2_lib/WebView2)
+
+**WebView2.create:** Creates a new WebView2 control.
+
+**WebView2.navigate:** Navigates the WebView2 control to the specified URL.
+
+**WebView2.loadHtml:** Loads the specified HTML into the WebView2 control.
+
+**WebView2.evaluateScript:** Evaluates the specified JavaScript in the WebView2 control.
+
+**WebView2.getHtml:** Gets the HTML of the current page in the WebView2 control.
+
+**WebView2.getTitle:** Gets the title of the current page in the WebView2 control.
+
+**WebView2.getUrl:** Gets the URL of the current page in the WebView2 control.
+
+**WebView2.getSettings:** Gets the settings for the WebView2 control.
+
+**WebView2.setSettings:** Sets the settings for the WebView2 control.
+
+**WebView2.addScript:** Adds a script to the WebView2 control.
+
+**WebView2.removeScript:** Removes a script from the WebView2 control.
+
+**WebView2.getScripts:** Gets the scripts in the WebView2 control.
+
+**WebView2.addStyle:** Adds a style to the WebView2 control.
+
+**WebView2.removeStyle:** Removes a style from the WebView2 control.
+
+**WebView2.getStyles:** Gets the styles in the WebView2 control.
+
+**WebView2.getDocument:** Gets the document for the current page in the WebView2 control.
+
+**WebView2.getWindow:** Gets the window for the current page in the WebView2 control.
+
+**WebView2.getFrame:** Gets the frame for the current page in the WebView2 control.
+
+**WebView2.getFrames:** Gets the frames for the current page in the WebView2 control.
+
+**WebView2.getCookies:** Gets the cookies for the current page in the WebView2 control.
+
+**WebView2.setCookies:** Sets the cookies for the current page in the WebView2 control.
+
+**WebView2.clearCookies:** Clears the cookies for the current page in the WebView2 control.
+
+**WebView2.getHistory:** Gets the history for the current page in the WebView2 control.
+
+**WebView2.goBack:** Goes back one page in the history for the current page in the WebView2 control.
+
+**WebView2.goForward:** Goes forward one page in the history for the current page in the WebView2 control.
+
+**WebView2.reload:** Reloads the current page in the WebView2 control.
+
+**WebView2.stop:** Stops loading the current page in the WebView2 control.
+
+**WebView2.zoomIn:** Zooms in on the current page in the WebView2 control.
+
+**WebView2.zoomOut:** Zooms out on the current page in the WebView2 control.
+
+**WebView2.resetZoom:** Resets the zoom level for the current page in the WebView2 control.
+
+**WebView2.fullScreen:** Enters full screen mode for the current page in the WebView2 control.
+
+**WebView2.exitFullScreen:** Exits full screen mode for the current page in the WebView2 control.
+
+**WebView2.print:** Prints the current page in the WebView2 control.
+
+**WebView2.dispose:** Disposes of the WebView2 control.
+
 
 ### Socket.ahk 
 https://github.com/thqby/ahk2_lib/Socket.ahk
