@@ -5,7 +5,7 @@ This repository contains a collection of AutoHotkey (AHK) classes that provide v
 
 # Common_Classes
 
-## JSON.ahk
+### JSON.ahk
 
 This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
 
@@ -14,7 +14,7 @@ Some of the methods include:
 - `Generate()` - Generates a JSON string from an object.
 - `Manipulate()` - Manipulates a JSON object.
 
-## WinHttpRequest.ahk
+### WinHttpRequest.ahk
 
 This class provides methods for working with Windows HTTP requests, such as sending and receiving data.
 
@@ -23,7 +23,7 @@ Some of the methods include:
 - `Receive()` - Receives an HTTP response.
 - `ManageConnections()` - Manages HTTP connections.
 
-## Winhttp.ahk
+### Winhttp.ahk
 
 This class provides methods for working with Windows HTTP, such as creating, managing, and closing connections.
 
@@ -32,7 +32,7 @@ Some of the methods include:
 - `Manage()` - Manages an HTTP connection.
 - `Close()` - Closes an HTTP connection.
 
-## DownloadAsync.ahk
+### DownloadAsync.ahk
 
 This class provides methods for downloading files asynchronously.
 
@@ -42,7 +42,7 @@ Some of the methods include:
 - `IsFinished()` - Checks if a download is finished.
 
 
-## ArrayObject.ahk
+### ArrayObject.ahk
 
 This class provides a number of methods for working with arrays, such as sorting, searching, and merging.
 
@@ -51,7 +51,7 @@ Some of the methods include:
 - `Search()` - Searches the array for a specified value and returns the index of the value if found.
 - `Merge()` - Merges two arrays into a single array.
 
-## ClipboardObject.ahk
+### ClipboardObject.ahk
 
 This class provides methods for accessing and manipulating the clipboard.
 
@@ -60,7 +60,7 @@ Some of the methods include:
 - `SetText()` - Sets the text on the clipboard to a specified value.
 - `Clear()` - Clears the clipboard.
 
-## FileObject.ahk
+### FileObject.ahk
 
 This class provides methods for working with files, such as reading, writing, and deleting.
 
@@ -69,7 +69,7 @@ Some of the methods include:
 - `Write()` - Writes a string to a file.
 - `Delete()` - Deletes a file.
 
-## ListObject.ahk
+### ListObject.ahk
 
 This class provides a number of methods for working with lists, such as sorting, searching, and merging.
 
@@ -78,7 +78,7 @@ Some of the methods include:
 - `Search()` - Searches the list for a specified value and returns the index of the value if found.
 - `Merge()` - Merges two lists into a single list.
 
-## Object.ahk
+### Object.ahk
 
 This class is the base class for all other classes in this repository. It provides a number of methods for working with objects, such as getting and setting properties.
 
@@ -87,7 +87,7 @@ Some of the methods include:
 - `SetProperty()` - Sets the value of a property.
 - `Exists()` - Checks if a property exists.
 
-## StringObject.ahk
+### StringObject.ahk
 
 This class provides a number of methods for working with strings, such as searching, replacing, and formatting.
 
@@ -96,7 +96,7 @@ Some of the methods include:
 - `Replace()` - Replaces all occurrences of a specified value in a string with a new value.
 - `Format()` - Formats a string according to a specified format.
 
-# Specialty_Classes
+## Specialty_Classes
 
 ### Calculator.ahk
 
