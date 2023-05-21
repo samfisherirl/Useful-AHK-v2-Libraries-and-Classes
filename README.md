@@ -26,15 +26,16 @@ Credits are included in each file, and thank you thqby for the original repo abo
 For each of these scripts, you can either use CTRL+F or you can view the same readme's within designated folders in this repo. 
 
 ### JXON.ahk 
+-  Source - https://github.com/TheArkive/JXON_ahk2
 
 My personal favorite JSON class. This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
 - `var := jxon_dump(obj, indent:=0)` -  Output var is the serialized text.
 
 - `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
 
--  Source - https://github.com/TheArkive/JXON_ahk2
 
 ### Neutron.ahk 
+- Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
 
 - Create GUIs with HTML, CSS, JS, and AHK all working together.
 - Make responsive user interfaces that reflow when you resize the window, and scroll when elements go out of view.
@@ -42,9 +43,10 @@ My personal favorite JSON class. This class provides methods for working with JS
 - Make better looking interfaces easily with web frameworks like Bootstrap.
 - Compile resources into your script and access them without extracting. Very useful for including images in the script!
 
-- Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
 
 ### UIAutomation v2
+- Source - https://github.com/Descolada/UIA-v2
+
 This library is a wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK.
 
 `Example02_StartingPointElements.ahk`: A file that demonstrates how to find the starting point elements for a UIA-v2 model.
@@ -64,10 +66,6 @@ This library is a wrapper for the UIAutomation framework, which can be used to a
 `UIA_Browser_Example01_Chrome.ahk`: A file that demonstrates how to use the UIA-v2 model to control Google Chrome.
 
 `UIA_Browser_Example02_EdgeScrolling.ahk`: A file that demonstrates how to use the UIA-v2 model to scroll through a web page in Microsoft Edge.
-
-
-
-- Source - https://github.com/Descolada/UIA-v2
 
 # Common thqby Classes 
 
@@ -110,7 +108,6 @@ Some of the methods include:
 - `Download()` - Downloads a file asynchronously.
 - `GetProgress()` - Gets the progress of a download.
 - `IsFinished()` - Checks if a download is finished.
-
 
 ### Socket.ahk
 
