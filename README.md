@@ -25,7 +25,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 
 I'm just getting started, expect this to expand soon. 
 
-### JXON.ahk 
+## JXON.ahk 
 -  Source - https://github.com/TheArkive/JXON_ahk2
 
 My personal favorite JSON class. This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
@@ -33,7 +33,7 @@ My personal favorite JSON class. This class provides methods for working with JS
 
 - `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
 
-### ahkv2 script converter
+## ahkv2 script converter
 - Source - [mmikeww/AHK-v2-script-converter](https://github.com/mmikeww/AHK-v2-script-converter)
 
 `QuickConvertorV2.ahk`
@@ -42,7 +42,7 @@ Usage
 To use the script, simply run it. The script will open a GUI where you can select the AHK v1 script to convert. The converted script will be saved in the same directory as the original script.
 
 
-### Neutron.ahk 
+## Neutron.ahk 
 - Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
 
 - Create GUIs with HTML, CSS, JS, and AHK all working together.
@@ -52,7 +52,7 @@ To use the script, simply run it. The script will open a GUI where you can selec
 - Compile resources into your script and access them without extracting. Very useful for including images in the script!
 
 
-### UIAutomation v2
+## UIAutomation v2
 - Source - https://github.com/Descolada/UIA-v2
 
 This library is a wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK.
@@ -117,7 +117,7 @@ Some of the methods include:
 - `GetProgress()` - Gets the progress of a download.
 - `IsFinished()` - Checks if a download is finished.
 
-### Socket.ahk
+## Socket.ahk
 
 [GitHub Repository](https://github.com/thqby/ahk2_lib/Socket.ahk)
 
@@ -167,7 +167,7 @@ Simple implementation of a socket Server and Client. Handles asynchronous messag
 
 
 
-### Webview2.ahk
+## Webview2.ahk
 
 [GitHub Repository](https://github.com/thqby/ahk2_lib/WebView2)
 
