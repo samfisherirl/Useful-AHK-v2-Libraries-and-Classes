@@ -11,7 +11,7 @@ Sourceds from:
 My goal is to centralize, as well as add examples, a readme when missing, and english translations for comments. 
 Credits are included in each file, and thank you thqby for the original repo above, it is greatly appreciated.
 
-# All scripts in one place
+# A central list of AHKv2 resources
 
 For each of these scripts, you can either use CTRL+F or you can view the same readme's within designated folders in this repo. 
 
