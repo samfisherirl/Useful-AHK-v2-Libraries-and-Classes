@@ -4,6 +4,43 @@ Useful AHK-v2 Libraries and Classes, forked from https://github.com/thqby/ahk2_l
 
 This repository contains a collection of AutoHotkey (AHK) classes that provide various functionalities for different purposes. The classes are designed to make it easier to work with arrays, clipboards, files, lists, objects, strings, mathematical operations, dates and times, logging events, networks, and processes.
 
+## JSON.ahk
+
+This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
+
+Some of the methods include:
+- `Parse()` - Parses a JSON string into an object.
+- `Generate()` - Generates a JSON string from an object.
+- `Manipulate()` - Manipulates a JSON object.
+
+## WinHttpRequest.ahk
+
+This class provides methods for working with Windows HTTP requests, such as sending and receiving data.
+
+Some of the methods include:
+- `Send()` - Sends an HTTP request.
+- `Receive()` - Receives an HTTP response.
+- `ManageConnections()` - Manages HTTP connections.
+
+## Winhttp.ahk
+
+This class provides methods for working with Windows HTTP, such as creating, managing, and closing connections.
+
+Some of the methods include:
+- `Create()` - Creates an HTTP connection.
+- `Manage()` - Manages an HTTP connection.
+- `Close()` - Closes an HTTP connection.
+
+## DownloadAsync.ahk
+
+This class provides methods for downloading files asynchronously.
+
+Some of the methods include:
+- `Download()` - Downloads a file asynchronously.
+- `GetProgress()` - Gets the progress of a download.
+- `IsFinished()` - Checks if a download is finished.
+
+
 ## ArrayObject.ahk
 
 This class provides a number of methods for working with arrays, such as sorting, searching, and merging.
