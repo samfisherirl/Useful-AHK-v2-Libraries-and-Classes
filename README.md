@@ -7,6 +7,7 @@ Sourceds from:
 - https://github.com/G33kDude
 - https://github.com/jNizM/ahk-scripts-v2
 - among others
+
 with the goal of adding examples, a readme, and english translations for comments. 
 Credits are included in each file, and thank you thqby for the original repo above, it is greatly appreciated.
 
