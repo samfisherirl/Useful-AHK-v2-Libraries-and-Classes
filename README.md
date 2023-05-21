@@ -87,26 +87,47 @@ Some of the methods include:
 Simple implementation of a socket Server and Client. Handles asynchronous messages by implementing the `on%EventName%(err)` method of the class.
 
 `Socket.create:` Creates a new socket.
+
 `Socket.connect:` Connects the socket to the specified host and port.
+
 `Socket.send:` Sends data to the socket.
+
 `Socket.receive:` Receives data from the socket.
+
 `Socket.close:` Closes the socket.
+
 `Socket.bind:` Binds the socket to the specified port.
+
 `Socket.listen:` Listens for connections on the socket.
+
 `Socket.accept:` Accepts a connection on the socket.
+
 `Socket.getpeername:` Gets the name of the peer connected to the socket.
+
 `Socket.getsockname:` Gets the name of the socket.
+
 `Socket.getpeerport:` Gets the port of the peer connected to the socket.
+
 `Socket.getsockport:` Gets the port of the socket.
+
 `Socket.setoption:` Sets an option for the socket.
+
 `Socket.getoption:` Gets an option for the socket.
+
 `Socket.geterror:` Gets the error code for the last operation on the socket.
+
 `Socket.clearerror:` Clears the error code for the socket.
+
 `Socket.shutdown:` Shutdowns the socket.
+
 `Socket.ioctl:` Performs an I/O control operation on the socket.
+
 `Socket.select:` Waits for a socket to become ready for reading, writing, or both.
+
 `Socket.wsastartup:` Initializes the Windows socket API.
+
 `Socket.wsacleanup:` Cleans up the Windows socket API.
+
 
 
 ### Webview2.ahk
