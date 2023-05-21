@@ -15,7 +15,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 
 ### JXON.ahk 
 
-This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
+My personal favorite JSON class. This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
 - `var := jxon_dump(obj, indent:=0)` -  Output var is the serialized text.
 
 - `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
