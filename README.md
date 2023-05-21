@@ -33,6 +33,14 @@ My personal favorite JSON class. This class provides methods for working with JS
 
 - `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
 
+### ahkv2 script converter
+- Source - [mmikeww/AHK-v2-script-converter](https://github.com/mmikeww/AHK-v2-script-converter)
+
+`QuickConvertorV2.ahk`
+This script is a GUI for the AHK v1 -> v2 Script Converter. It allows you to select an AHK v1 script and convert it to AHK v2 with a single click.
+Usage
+To use the script, simply run it. The script will open a GUI where you can select the AHK v1 script to convert. The converted script will be saved in the same directory as the original script.
+
 
 ### Neutron.ahk 
 - Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
