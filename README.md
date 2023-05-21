@@ -11,7 +11,7 @@ Sourceds from:
 My goal is to centralize, as well as add examples, a readme when missing, and english translations for comments. 
 Credits are included in each file, and thank you thqby for the original repo above, it is greatly appreciated.
 
-# A central list of AHKv2 resources
+## AHKv2 Scripts and Classes
 
 - [JXON](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jxonahk)
 - [Neutron.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#neutronahk)
