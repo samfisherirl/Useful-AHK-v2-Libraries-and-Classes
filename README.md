@@ -8,7 +8,7 @@ Sourceds from:
 - https://github.com/jNizM/ahk-scripts-v2
 - among others
 
-with the goal of adding examples, a readme, and english translations for comments. 
+My goal is to centralize, as well as add examples, a readme when missing, and english translations for comments. 
 Credits are included in each file, and thank you thqby for the original repo above, it is greatly appreciated.
 
 # External Resources 
