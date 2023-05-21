@@ -1,5 +1,5 @@
 # Useful AHK-v2 Libraries and Classes, with added explainers and examples
-This repository contains a collection of AutoHotkey (AHK) classes that provide various functionalities for different purposes. The classes are designed to make it easier to work with arrays, clipboards, files, lists, objects, strings, mathematical operations, dates and times, logging events, networks, and processes.
+This repository contains a collection of AutoHotkey (AHK) version 2 classes that provide various functionalities for different purposes. The classes are designed to make it easier to work with arrays, clipboards, files, lists, objects, strings, mathematical operations, dates and times, logging events, networks, and processes.
 
 Sourceds from:
 - https://github.com/thqby/ahk2_lib (with credits within each class for the original creator)
