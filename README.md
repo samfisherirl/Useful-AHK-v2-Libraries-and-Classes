@@ -4,8 +4,7 @@ This repository contains a collection of AutoHotkey (AHK) classes that provide v
 ahk2_lib, forked from https://github.com/thqby/ahk2_lib with the goal of adding examples, a readme, and english translations for comments. 
 Credits are included in each file, and thank you thqby for the original repo above, it is greatly appreciated.
 
-
-# Common_Classes
+# External Resources 
 
 ### JXON.ahk 
 
@@ -14,7 +13,25 @@ This class provides methods for working with JSON data, such as parsing, generat
 
 - `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
 
-- External Source - https://github.com/TheArkive/JXON_ahk2
+-  Source - https://github.com/TheArkive/JXON_ahk2
+
+### Neutron.ahk 
+
+- Create GUIs with HTML, CSS, JS, and AHK all working together.
+- Make responsive user interfaces that reflow when you resize the window, and scroll when elements go out of view.
+- Full customization of the title bar including fonts and colors.
+- Make better looking interfaces easily with web frameworks like Bootstrap.
+- Compile resources into your script and access them without extracting. Very useful for including images in the script!
+
+- Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
+
+### UIAutomation v2
+This library is a wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK.
+
+- Source - https://github.com/Descolada/UIA-v2
+
+# Common_Classes
+
 
 ### JSON.ahk
 
