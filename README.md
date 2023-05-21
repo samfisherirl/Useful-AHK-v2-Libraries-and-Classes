@@ -33,7 +33,6 @@ This library is a wrapper for the UIAutomation framework, which can be used to a
 # Common thqby Classes 
 
 ### JSON.ahk 
-
 https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
 
 This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
@@ -44,6 +43,7 @@ Some of the methods include:
 - `Manipulate()` - Manipulates a JSON object.
 
 ### WinHttpRequest.ahk
+https://github.com/thqby/ahk2_lib/blob/master/WinHttpRequest.ahk
 
 This class provides methods for working with Windows HTTP requests, such as sending and receiving data.
 
@@ -53,6 +53,7 @@ Some of the methods include:
 - `ManageConnections()` - Manages HTTP connections.
 
 ### Winhttp.ahk
+https://github.com/thqby/ahk2_lib/blob/master/Winhttp.ahk
 
 This class provides methods for working with Windows HTTP, such as creating, managing, and closing connections.
 
@@ -62,6 +63,7 @@ Some of the methods include:
 - `Close()` - Closes an HTTP connection.
 
 ### DownloadAsync.ahk
+https://github.com/thqby/ahk2_lib/blob/master/DownloadAsync.ahk
 
 This class provides methods for downloading files asynchronously.
 
@@ -70,105 +72,70 @@ Some of the methods include:
 - `GetProgress()` - Gets the progress of a download.
 - `IsFinished()` - Checks if a download is finished.
 
+### Webview2.ahk 
+https://github.com/thqby/ahk2_lib/WebView2
 
-### ArrayObject.ahk
+WebView2.create: Creates a new WebView2 control.
+WebView2.navigate: Navigates the WebView2 control to the specified URL.
+WebView2.loadHtml: Loads the specified HTML into the WebView2 control.
+WebView2.evaluateScript: Evaluates the specified JavaScript in the WebView2 control.
+WebView2.getHtml: Gets the HTML of the current page in the WebView2 control.
+WebView2.getTitle: Gets the title of the current page in the WebView2 control.
+WebView2.getUrl: Gets the URL of the current page in the WebView2 control.
+WebView2.getSettings: Gets the settings for the WebView2 control.
+WebView2.setSettings: Sets the settings for the WebView2 control.
+WebView2.addScript: Adds a script to the WebView2 control.
+WebView2.removeScript: Removes a script from the WebView2 control.
+WebView2.getScripts: Gets the scripts in the WebView2 control.
+WebView2.addStyle: Adds a style to the WebView2 control.
+WebView2.removeStyle: Removes a style from the WebView2 control.
+WebView2.getStyles: Gets the styles in the WebView2 control.
+WebView2.getDocument: Gets the document for the current page in the WebView2 control.
+WebView2.getWindow: Gets the window for the current page in the WebView2 control.
+WebView2.getFrame: Gets the frame for the current page in the WebView2 control.
+WebView2.getFrames: Gets the frames for the current page in the WebView2 control.
+WebView2.getCookies: Gets the cookies for the current page in the WebView2 control.
+WebView2.setCookies: Sets the cookies for the current page in the WebView2 control.
+WebView2.clearCookies: Clears the cookies for the current page in the WebView2 control.
+WebView2.getHistory: Gets the history for the current page in the WebView2 control.
+WebView2.goBack: Goes back one page in the history for the current page in the WebView2 control.
+WebView2.goForward: Goes forward one page in the history for the current page in the WebView2 control.
+WebView2.reload: Reloads the current page in the WebView2 control.
+WebView2.stop: Stops loading the current page in the WebView2 control.
+WebView2.zoomIn: Zooms in on the current page in the WebView2 control.
+WebView2.zoomOut: Zooms out on the current page in the WebView2 control.
+WebView2.resetZoom: Resets the zoom level for the current page in the WebView2 control.
+WebView2.fullScreen: Enters full screen mode for the current page in the WebView2 control.
+WebView2.exitFullScreen: Exits full screen mode for the current page in the WebView2 control.
+WebView2.print: Prints the current page in the WebView2 control.
+WebView2.dispose: Disposes of the WebView2 control.
 
-This class provides a number of methods for working with arrays, such as sorting, searching, and merging.
+### Socket.ahk 
+https://github.com/thqby/ahk2_lib/Socket.ahk
 
-Some of the methods include:
-- `Sort()` - Sorts the array in ascending order.
-- `Search()` - Searches the array for a specified value and returns the index of the value if found.
-- `Merge()` - Merges two arrays into a single array.
+Simple implementation of a socket Server and Client
+Handles asynchronous messages by implementing the `on%EventName%(err)` method of the class.
 
-### ClipboardObject.ahk
+Socket.create: Creates a new socket.
+Socket.connect: Connects the socket to the specified host and port.
+Socket.send: Sends data to the socket.
+Socket.receive: Receives data from the socket.
+Socket.close: Closes the socket.
+Socket.bind: Binds the socket to the specified port.
+Socket.listen: Listens for connections on the socket.
+Socket.accept: Accepts a connection on the socket.
+Socket.getpeername: Gets the name of the peer connected to the socket.
+Socket.getsockname: Gets the name of the socket.
+Socket.getpeerport: Gets the port of the peer connected to the socket.
+Socket.getsockport: Gets the port of the socket.
+Socket.setoption: Sets an option for the socket.
+Socket.getoption: Gets an option for the socket.
+Socket.geterror: Gets the error code for the last operation on the socket.
+Socket.clearerror: Clears the error code for the socket.
+Socket.shutdown: Shutdowns the socket.
+Socket.ioctl: Performs an I/O control operation on the socket.
+Socket.select: Waits for a socket to become ready for reading, writing, or both.
+Socket.wsastartup: Initializes the Windows socket API.
+Socket.wsacleanup: Cleans up the Windows socket API.
 
-This class provides methods for accessing and manipulating the clipboard.
 
-Some of the methods include:
-- `GetText()` - Gets the text that is currently on the clipboard.
-- `SetText()` - Sets the text on the clipboard to a specified value.
-- `Clear()` - Clears the clipboard.
-
-### FileObject.ahk
-
-This class provides methods for working with files, such as reading, writing, and deleting.
-
-Some of the methods include:
-- `Read()` - Reads the contents of a file into a string.
-- `Write()` - Writes a string to a file.
-- `Delete()` - Deletes a file.
-
-### ListObject.ahk
-
-This class provides a number of methods for working with lists, such as sorting, searching, and merging.
-
-Some of the methods include:
-- `Sort()` - Sorts the list in ascending order.
-- `Search()` - Searches the list for a specified value and returns the index of the value if found.
-- `Merge()` - Merges two lists into a single list.
-
-### Object.ahk
-
-This class is the base class for all other classes in this repository. It provides a number of methods for working with objects, such as getting and setting properties.
-
-Some of the methods include:
-- `GetProperty()` - Gets the value of a property.
-- `SetProperty()` - Sets the value of a property.
-- `Exists()` - Checks if a property exists.
-
-### StringObject.ahk
-
-This class provides a number of methods for working with strings, such as searching, replacing, and formatting.
-
-Some of the methods include:
-- `Search()` - Searches a string for a specified value and returns the index of the value if found.
-- `Replace()` - Replaces all occurrences of a specified value in a string with a new value.
-- `Format()` - Formats a string according to a specified format.
-
-## Specialty_Classes
-
-### Calculator.ahk
-
-This class provides a number of methods for performing mathematical operations, such as addition, subtraction, multiplication, and division.
-
-Some of the methods include:
-- `Add()` - Adds two numbers together.
-- `Subtract()` - Subtracts one number from another number.
-- `Multiply()` - Multiplies two numbers together.
-- `Divide()` - Divides one number by another number.
-
-### DateTimeObject.ahk
-
-This class provides methods for working with dates and times, such as getting the current date and time, formatting dates and times, and calculating the difference between two dates and times.
-
-Some of the methods include:
-- `GetNow()` - Gets the current date and time.
-- `Format()` - Formats a date or time according to a specified format.
-- `Diff()` - Calculates the difference between two dates and times.
-
-### Logger.ahk
-
-This class provides methods for logging events to a file.
-
-Some of the methods include:
-- `Log()` - Logs an event to a file.
-- `Clear()` - Clears the log file.
-
-### NetworkObject.ahk
-
-This class provides methods for working with networks, such as connecting to a network, sending and receiving data, and managing network connections.
-
-Some of the methods include:
-- `Connect()` - Connects to a network.
-- `Send()` - Sends data to a network.
-- `Receive()` - Receives data from a network.
-- `ManageConnections()` - Manages network connections.
-
-### ProcessObject.ahk
-
-This class provides methods for working with processes, such as creating, killing, and suspending processes.
-
-Some of the methods include:
-- `Create()` - Creates a process.
-- `Kill()` - Kills a process.
-- `Suspend()` - Suspends a process.
