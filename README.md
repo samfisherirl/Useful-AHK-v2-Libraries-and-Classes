@@ -13,6 +13,16 @@ Credits are included in each file, and thank you thqby for the original repo abo
 
 # A central list of AHKv2 resources
 
+[JXON](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jxonahk)
+[Neutron.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#neutronahk)
+[UIAutomation](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#uiautomation-v2)
+[JSON.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jsonahk)
+[WinHTTPRequest.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#winhttprequestahk)
+[WinHTTP.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#winhttpahk)
+[DownloadAsync](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#downloadasyncahk)
+[Socket.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#socketahk)
+[Webview2.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#webview2ahk)
+
 For each of these scripts, you can either use CTRL+F or you can view the same readme's within designated folders in this repo. 
 
 ### JXON.ahk 
