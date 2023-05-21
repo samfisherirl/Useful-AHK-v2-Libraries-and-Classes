@@ -5,6 +5,15 @@ This repository contains a collection of AutoHotkey (AHK) classes that provide v
 
 # Common_Classes
 
+### JXON.ahk 
+
+This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
+- `var := jxon_dump(obj, indent:=0)` -  Output var is the serialized text.
+
+- `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
+
+- External Source - https://github.com/TheArkive/JXON_ahk2
+
 ### JSON.ahk
 
 This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
