@@ -23,7 +23,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 - [Socket.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#socketahk)
 - [Webview2.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#webview2ahk)
 
-For each of these scripts, you can either use CTRL+F or you can view the same readme's within designated folders in this repo. 
+I'm just getting started, expect this to expand soon. 
 
 ### JXON.ahk 
 -  Source - https://github.com/TheArkive/JXON_ahk2
