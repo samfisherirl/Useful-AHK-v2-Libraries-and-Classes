@@ -95,7 +95,7 @@ Some of the methods include:
 - `Replace()` - Replaces all occurrences of a specified value in a string with a new value.
 - `Format()` - Formats a string according to a specified format.
 
-## Specialty_Classes
+# Specialty_Classes
 
 ### Calculator.ahk
 
