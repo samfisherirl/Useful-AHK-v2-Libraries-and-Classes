@@ -117,6 +117,41 @@ Some of the methods include:
 - `GetProgress()` - Gets the progress of a download.
 - `IsFinished()` - Checks if a download is finished.
 
+## Chrome.ahk
+This file contains a collection of AutoHotkey functions for interacting with Google Chrome.
+
+Functions:
+`Chrome_Open()`: Opens a new instance of Google Chrome.
+`Chrome_Close()`: Closes the current instance of Google Chrome.
+`Chrome_GoToURL()`: Opens the specified URL in Google Chrome.
+`Chrome_GetTitle()`: Gets the title of the current tab in Google Chrome.
+`Chrome_GetURL()`: Gets the URL of the current tab in Google Chrome.
+`Chrome_GetActiveTab()`: Gets the handle of the active tab in Google Chrome.
+`Chrome_GetTabs()`: Gets a list of all the tabs in Google Chrome.
+`Chrome_NewTab()`: Opens a new tab in Google Chrome.
+`Chrome_CloseTab()`: Closes the specified tab in Google Chrome.
+`Chrome_ReloadTab()`: Reloads the specified tab in Google Chrome.
+`Chrome_GoBack()`: Goes back one page in Google Chrome.
+`Chrome_GoForward()`: Goes forward one page in Google Chrome.
+`Chrome_Refresh()`: Refreshes the current page in Google Chrome.
+`Chrome_Find()`: Finds the specified text on the current page in Google Chrome.
+`Chrome_SavePage()`: Saves the current page to a file.
+`Chrome_PrintPage()`: Prints the current page.
+`Chrome_Quit()`: Quits Google Chrome.
+### Usage
+To use these functions, you will need to first install AutoHotkey. Once you have installed AutoHotkey, you can load the Chrome.ahk file by double-clicking on it.
+
+Once the file is loaded, you can use the functions by typing their names followed by the arguments. For example, to open a new instance of Google Chrome, you would type the following:
+
+### Chrome_Open()  
+
+To get the title of the current tab, you would type the following:
+Chrome_GetTitle()
+To get the URL of the current tab, you would type the following:
+Chrome_GetURL()
+
+
+
 ## Socket.ahk
 
 [GitHub Repository](https://github.com/thqby/ahk2_lib/Socket.ahk)
