@@ -22,6 +22,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 - [DownloadAsync](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#downloadasyncahk)
 - [Socket.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#socketahk)
 - [Webview2.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#webview2ahk)
+- [GUI-Builder-Designer](https://github.com/samfisherirl/Easy-Auto-GUI-for-AHK-v2)
 
 I'm just getting started, expect this to expand soon. 
 
