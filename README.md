@@ -19,6 +19,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 - [JSON.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jsonahk)
 - [WinHTTPRequest.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#winhttprequestahk)
 - [WinHTTP.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#winhttpahk)
+- [Common Language Runtime CLR.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#clrahk)
 - [DownloadAsync](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#downloadasyncahk)
 - [Socket.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#socketahk)
 - [Webview2.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#webview2ahk)
@@ -150,6 +151,44 @@ To get the title of the current tab, you would type the following:
 Chrome_GetTitle()
 To get the URL of the current tab, you would type the following:
 Chrome_GetURL()
+
+## CLR.ahk
+https://www.autohotkey.com/boards/viewtopic.php?t=4633
+
+Microsoft Common Language Runtime / .NET Framework Interop
+
+Run C# Framework DLLs from Autohotkey
+License: public domain / CC0
+Key Features:
+- Load the Common Language Runtime into the script's process.
+- Load .NET assemblies (dll files) by full name, partial name, or path.
+- Instantiate objects and call instance methods or properties.
+- Compile C# or VB code on the fly or to file.
+
+### Functions
+
+
+
+`CLR_Start( [ RuntimeVersion ] )`
+Loads the Common Language Runtime. RuntimeVersion specifies the exact version to load - for example, "v2.0.50727" or "v4.0.30319". If omitted, the latest version is loaded. If this function is not called and another CLR function requires the runtime to be loaded, the latest version will be loaded.
+
+`CLR_StartDomain( ByRef AppDomain [, BaseDirectory ] )`
+Starts a new AppDomain and stores a pointer or reference to it in AppDomain. This can be passed to CLR_LoadLibrary() to load an assembly into the AppDomain. BaseDirectory defines the base search path used when loading assemblies into the AppDomain.
+
+`CLR_StopDomain( AppDomain )`
+Stops the specified AppDomain and attempts to unload any assemblies that were loaded into it.
+
+`CLR_LoadLibrary( AssemblyName [, AppDomain ] )`
+Loads an assembly, where AssemblyName is its full name, partial name or path. Optionally loads the assembly into the given AppDomain instead of the default AppDomain. Returns a pointer or reference to the Assembly, which can be used with CLR_CreateObject.
+Note: Once an assembly is loaded, it can only be unloaded by stopping the AppDomain which contains it.
+
+`CLR_CreateObject( Assembly, sType [, Arg1, Arg2 ... ] )`
+Instantiates an object of the specified type from the specified assembly. Optionally accepts a list of arguments to pass to the object's constructor. Use ComObject(Type, Arg) to pass a typed value. A list of type codes can be found here. Alternatively, you can call Assembly.CreateInstance(sType) directly if you do not need to pass parameters.
+
+`CLR_CompileC#( Code, References [, AppDomain, FileName, CompilerOptions ] )`
+`CLR_CompileVB( Code, References [, AppDomain, FileName, CompilerOptions ] )`
+Compile the specified C# or VB code. If FileName is omitted, the assembly is compiled "in-memory" and automatically loaded. DLL and EXE files may be generated. Specify for References a pipe (|) delimited list of assemblies that the code requires. If FileName is omitted and compilation is successful, returns a pointer or reference to the compiled Assembly, which can be used with CLR_CreateObject; otherwise returns FileName on success or 0 on failure.
+Note: Some versions of .NET may require an explicit reference to the appropriate language dll, such as Microsoft.CSharp.dll.
 
 
 
