@@ -2,7 +2,7 @@
 This repository contains a collection of AutoHotkey (AHK) version 2 classes that provide various functionalities for different purposes. The classes are designed to make it easier to work with arrays, clipboards, files, lists, objects, strings, mathematical operations, dates and times, logging events, networks, and processes.
 
 Sourceds from:
-- [thqby/ahk2_lib](https://github.com/thqby/ahk2_lib) (with credits within each class for the original creator)
+- [thqby/ahk2_lib](https://github.com/thqby/ahk2_lib)
 - [Descolada/UIA-v2](https://github.com/Descolada/UIA-v2)
 - [G33kDude](https://github.com/G33kDude)
 - [NizM/ahk-scripts-v2](https://github.com/jNizM/ahk-scripts-v2)
