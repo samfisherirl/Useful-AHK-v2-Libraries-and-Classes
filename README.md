@@ -4,6 +4,7 @@ This repository contains a collection of AutoHotkey (AHK) version 2 classes that
 Sourceds from:
 - [thqby/ahk2_lib](https://github.com/thqby/ahk2_lib)
 - [Descolada/UIA-v2](https://github.com/Descolada/UIA-v2)
+- [TheArchive](https://github.com/TheArkive?tab=repositories))
 - [G33kDude](https://github.com/G33kDude)
 - [JNizM/ahk-scripts-v2](https://github.com/jNizM/ahk-scripts-v2)
 - [LargestAHKLib](https://github.com/Ixiko/AHK-libs-and-classes-collection/tree/master/AHK_V2)
