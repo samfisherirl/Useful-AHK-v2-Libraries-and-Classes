@@ -5,7 +5,7 @@ Sourceds from:
 - [AHKv1 to AHKv2 converter](https://github.com/mmikeww/AHK-v2-script-converter)
 - [thqby/ahk2_lib](https://github.com/thqby/ahk2_lib)
 - [Descolada/UIA-v2](https://github.com/Descolada/UIA-v2)
-- [TheArchive](https://github.com/TheArkive?tab=repositories))
+- [TheArchive](https://github.com/TheArkive?tab=repositories)
 - [G33kDude](https://github.com/G33kDude)
 - [JNizM/ahk-scripts-v2](https://github.com/jNizM/ahk-scripts-v2)
 - [LargestAHKLib](https://github.com/Ixiko/AHK-libs-and-classes-collection/tree/master/AHK_V2)
