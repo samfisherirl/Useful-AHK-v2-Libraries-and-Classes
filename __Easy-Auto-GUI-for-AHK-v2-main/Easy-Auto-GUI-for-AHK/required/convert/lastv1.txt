@@ -1,0 +1,9 @@
+﻿Gui Add, Button, x22 y17 w80 h23, &OK
+Gui Add, DropDownList, x188 y16 w120, DropDownList||
+
+Gui Show, w908 h420, Window
+Return
+
+GuiEscape:
+GuiClose:
+    ExitApp

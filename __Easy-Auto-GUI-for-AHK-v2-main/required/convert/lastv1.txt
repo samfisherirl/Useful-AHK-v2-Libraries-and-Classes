@@ -1,0 +1,62 @@
+﻿Gui +hWndhMainWnd
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Color, 0x232323
+Gui Add, Button, x40 y312 w205 h67, CONFIRM
+Gui Add, Button, x296 y312 w205 h67, CANCEL
+Gui Font
+Gui Font, s20 cBlack
+Gui Add, Edit, x576 y32 w235 h48, FARM 123
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Font
+Gui Font, s20 cBlack
+Gui Add, Edit, x576 y112 w461 h48, CUSTOMER ID 12312312
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Font
+Gui Font, s20 cBlack
+Gui Add, Edit, x576 y184 w461 h48, EVENT ID 321323
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Font
+Gui Font, s20 cBlack
+Gui Add, Edit, x824 y32 w213 h48, FARM 123
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Font
+Gui Font, s16 c0xC1EBFF
+Gui Add, Edit, hWndhEdtValue8 x576 y280 w459 h96, Notes`n
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+ControlColor(hEdtValue8, hMainWnd, 0x171717)
+Gui Add, Edit, hWndhEdtValue9 x272 y32 w211 h49, 1
+ControlColor(hEdtValue9, hMainWnd, 0x171717)
+Gui Add, UpDown, x480 y32 w18 h49, 1
+Gui Font
+Gui Font, s20 c0xD5F1FF
+Gui Add, Edit, hWndhEdtValue10 x272 y112 w211 h48, Animals
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+ControlColor(hEdtValue10, hMainWnd, 0x171717)
+Gui Add, UpDown, x481 y112 w18 h48, 1
+Gui Font
+Gui Font, s20 c0xD5F1FF
+Gui Add, Edit, hWndhEdtValue11 x272 y192 w209 h48, Animals
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+ControlColor(hEdtValue11, hMainWnd, 0x171717)
+Gui Add, UpDown, x480 y192 w18 h48, 1
+Gui Font
+Gui Font, s20 c0xFDFEFF
+Gui Add, DropDownList, x40 y32 w218, DropDownList||
+Gui Font
+Gui Font, s20 c0xBBE9FF, Segoe UI
+Gui Add, DropDownList, x40 y116 w218, DropDownList||
+Gui Add, DropDownList, x40 y192 w218, DropDownList||
+
+Gui Show, w1300 h600, calendarSimple.ahk (Clone)
+Return
+
+GuiEscape:
+GuiClose:
+    ExitApp

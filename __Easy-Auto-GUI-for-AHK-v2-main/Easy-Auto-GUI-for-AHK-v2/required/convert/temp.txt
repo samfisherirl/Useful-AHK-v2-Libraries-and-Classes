@@ -1,0 +1,11 @@
+﻿Gui Add, Button, x177 y86 w80 h23, &OK
+Gui Add, DateTime, x151 y259 w100 h24
+Gui Add, DropDownList, x389 y77 w120, DropDownList||
+Gui Add, Hotkey, x104 y35 w120 h21
+
+Gui Show, w620 h420, Window
+Return
+
+GuiEscape:
+GuiClose:
+    ExitApp
