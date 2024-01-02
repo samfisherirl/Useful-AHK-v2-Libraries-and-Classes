@@ -73,8 +73,7 @@ Learn how to create scrollable GUIs in AutoHotkey through this forum thread. Exp
 # Popular and Useful libs
 
 ### cJSON.ahk 
-[https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
-](https://github.com/G33kDude/cJson.ahk)  
+[cJson](https://github.com/G33kDude/cJson.ahk)
 
 Converting an AHK Object to JSON:
 
