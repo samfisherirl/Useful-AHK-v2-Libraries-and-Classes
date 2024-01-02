@@ -124,15 +124,66 @@ This library is a wrapper for the UIAutomation framework, which can be used to a
 
 # Common thqby Classes 
 
-### JSON.ahk 
-https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
+### cJSON.ahk 
+[https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
+](https://github.com/G33kDude/cJson.ahk) 
 
-This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
+The first and only AutoHotkey JSON library to use embedded compiled C for high
+performance.
 
-Some of the methods include:
-- `Parse()` - Parses a JSON string into an object.
-- `Generate()` - Generates a JSON string from an object.
-- `Manipulate()` - Manipulates a JSON object.
+## Compatibility
+
+This library is compatible with AutoHotkey v2.0 U64 and U32.
+
+## Using cJson
+
+Converting an AHK Object to JSON:
+
+```ahk
+#Include <JSON>
+
+; Create an object with every supported data type
+obj := ["abc", 123, {true: true, false: false, null: ""}, [JSON.true, JSON.false, JSON.null]]
+
+; Convert to JSON
+MsgBox JSON.Dump(obj) ; Expect: ["abc", 123, {"false": 0, "null": "", "true": 1}, [true, false, null]]
+```
+
+Converting JSON to an AHK Object:
+
+```ahk
+#Include <JSON>
+
+; Create some JSON
+str := '["abc", 123, {"true": 1, "false": 0, "null": ""}, [true, false, null]]'
+obj := JSON.Load(str)
+
+; Convert using default settings
+MsgBox (
+	str "`n"
+	"`n"
+	"obj[1]: " obj[1] " (expect abc)`n"
+	"obj[2]: " obj[2] " (expect 123)`n"
+	"`n"
+	"obj[3]['true']: " obj[3]['true'] " (expect 1)`n"
+	"obj[3]['false']: " obj[3]['false'] " (expect 0)`n"
+	"obj[3]['null']: " obj[3]['null'] " (expect blank)`n"
+	"`n"
+	"obj[4][1]: " obj[4][1] " (expect 1)`n"
+	"obj[4][2]: " obj[4][2] " (expect 0)`n"
+	"obj[4][3]: " obj[4][3] " (expect blank)`n"
+)
+
+; Convert Bool and Null values to objects instead of native types
+JSON.BoolsAsInts := false
+JSON.NullsAsStrings := false
+obj := JSON.Load(str)
+MsgBox obj[4][1] == JSON.True ; 1
+MsgBox obj[4][2] == JSON.False ; 1
+MsgBox obj[4][3] == JSON.Null ; 1
+``` 
+
+---
 
 ### WinHttpRequest.ahk
 https://github.com/thqby/ahk2_lib/blob/master/WinHttpRequest.ahk
