@@ -16,7 +16,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 
 ## AHKv2 Scripts and Classes
 
-- [JXON](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jxonahk)
+- [cJson](https://github.com/G33kDude/cJson.ahk)
 - [Neutron.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#neutronahk)
 - [UIAutomation](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#uiautomation-v2)
 - [JSON.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jsonahk)
@@ -27,6 +27,7 @@ Credits are included in each file, and thank you thqby for the original repo abo
 - [Socket.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#socketahk)
 - [Webview2.ahk](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#webview2ahk)
 - [Easy-AutoGUI](https://github.com/samfisherirl/Easy-Auto-GUI-for-AHK-v2)
+- [JXON](https://github.com/samfisherirl/Useful-AHK-v2-Libraries-and-Classes#jxonahk)
 
 I'm just getting started, expect this to expand soon. 
 
