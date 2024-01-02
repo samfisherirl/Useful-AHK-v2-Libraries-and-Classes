@@ -1,7 +1,7 @@
 # Useful AHK-v2 Libraries and Classes, with added explainers and examples
 This repository contains a collection of AutoHotkey (AHK) version 2 classes that provide various functionalities for different purposes. The classes are designed to make it easier to work with arrays, clipboards, files, lists, objects, strings, mathematical operations, dates and times, logging events, networks, and processes.
 
-Sourceds from:
+Best developer resources:
 - [AHKv1 to AHKv2 converter](https://github.com/mmikeww/AHK-v2-script-converter)
 - [thqby/ahk2_lib](https://github.com/thqby/ahk2_lib)
 - [Descolada/UIA-v2](https://github.com/Descolada/UIA-v2)
@@ -72,70 +72,9 @@ Learn how to create scrollable GUIs in AutoHotkey through this forum thread. Exp
 
 # Popular and Useful libs
 
-## JXON.ahk 
--  Source - https://github.com/TheArkive/JXON_ahk2
-
-My personal favorite JSON class. This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
-- `var := jxon_dump(obj, indent:=0)` -  Output var is the serialized text.
-
-- `obj := jxon_load(&text)` - Input must be properly formatted JSON text. If not properly formatted an error will be thrown. The error message will indicate the character number where parsing failed due to improper format.
-
-## ahkv2 script converter
-- Source - [mmikeww/AHK-v2-script-converter](https://github.com/mmikeww/AHK-v2-script-converter)
-
-`QuickConvertorV2.ahk`
-This script is a GUI for the AHK v1 -> v2 Script Converter. It allows you to select an AHK v1 script and convert it to AHK v2 with a single click.
-Usage
-To use the script, simply run it. The script will open a GUI where you can select the AHK v1 script to convert. The converted script will be saved in the same directory as the original script.
-
-
-## Neutron.ahk 
-- Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
-
-- Create GUIs with HTML, CSS, JS, and AHK all working together.
-- Make responsive user interfaces that reflow when you resize the window, and scroll when elements go out of view.
-- Full customization of the title bar including fonts and colors.
-- Make better looking interfaces easily with web frameworks like Bootstrap.
-- Compile resources into your script and access them without extracting. Very useful for including images in the script!
-
-
-## UIAutomation v2
-- Source - https://github.com/Descolada/UIA-v2
-
-This library is a wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK.
-
-- `Example02_StartingPointElements.ahk`: A file that demonstrates how to find the starting point elements for a UIA-v2 model.
-
-- `Example03_FindElements.ahk`: A file that demonstrates how to find elements in a UIA-v2 model.
-
-- `Example04_TreeWalking.ahk`: A file that demonstrates how to walk the tree of elements in a UIA-v2 model.
-
-- `Example05_Notepad.ahk`: A file that demonstrates how to use the UIA-v2 model to control Notepad.
-
-- `Example06_Calculator.ahk`: A file that demonstrates how to use the UIA-v2 model to control the Windows Calculator.
-
-- `Example07_FocusChangedEvent.ahk`: A file that demonstrates how to listen for the focus changed event in a UIA-v2 model.
-
-- `Example08_SelectionEventHandler.ahk`: A file that demonstrates how to listen for the selection changed event in a UIA-v2 model.
-
-- `UIA_Browser_Example01_Chrome.ahk`: A file that demonstrates how to use the UIA-v2 model to control Google Chrome.
-
-- `UIA_Browser_Example02_EdgeScrolling.ahk`: A file that demonstrates how to use the UIA-v2 model to scroll through a web page in Microsoft Edge.
-
-# Common thqby Classes 
-
 ### cJSON.ahk 
 [https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
-](https://github.com/G33kDude/cJson.ahk) 
-
-The first and only AutoHotkey JSON library to use embedded compiled C for high
-performance.
-
-## Compatibility
-
-This library is compatible with AutoHotkey v2.0 U64 and U32.
-
-## Using cJson
+](https://github.com/G33kDude/cJson.ahk)  
 
 Converting an AHK Object to JSON:
 
@@ -183,7 +122,59 @@ MsgBox obj[4][2] == JSON.False ; 1
 MsgBox obj[4][3] == JSON.Null ; 1
 ``` 
 
----
+## ahkv2 script converter
+- Source - [mmikeww/AHK-v2-script-converter](https://github.com/mmikeww/AHK-v2-script-converter)
+
+`QuickConvertorV2.ahk`
+This script is a GUI for the AHK v1 -> v2 Script Converter. It allows you to select an AHK v1 script and convert it to AHK v2 with a single click.
+Usage
+To use the script, simply run it. The script will open a GUI where you can select the AHK v1 script to convert. The converted script will be saved in the same directory as the original script.
+
+
+## Neutron.ahk 
+- Sources - https://github.com/G33kDude/Neutron.ahk/tree/v2
+
+- Create GUIs with HTML, CSS, JS, and AHK all working together.
+- Make responsive user interfaces that reflow when you resize the window, and scroll when elements go out of view.
+- Full customization of the title bar including fonts and colors.
+- Make better looking interfaces easily with web frameworks like Bootstrap.
+- Compile resources into your script and access them without extracting. Very useful for including images in the script!
+
+
+## UIAutomation v2
+- Source - https://github.com/Descolada/UIA-v2
+
+This library is a wrapper for the UIAutomation framework, which can be used to automate windows that normally might be difficult or impossible to automate with AHK.
+
+- `Example02_StartingPointElements.ahk`: A file that demonstrates how to find the starting point elements for a UIA-v2 model.
+
+- `Example03_FindElements.ahk`: A file that demonstrates how to find elements in a UIA-v2 model.
+
+- `Example04_TreeWalking.ahk`: A file that demonstrates how to walk the tree of elements in a UIA-v2 model.
+
+- `Example05_Notepad.ahk`: A file that demonstrates how to use the UIA-v2 model to control Notepad.
+
+- `Example06_Calculator.ahk`: A file that demonstrates how to use the UIA-v2 model to control the Windows Calculator.
+
+- `Example07_FocusChangedEvent.ahk`: A file that demonstrates how to listen for the focus changed event in a UIA-v2 model.
+
+- `Example08_SelectionEventHandler.ahk`: A file that demonstrates how to listen for the selection changed event in a UIA-v2 model.
+
+- `UIA_Browser_Example01_Chrome.ahk`: A file that demonstrates how to use the UIA-v2 model to control Google Chrome.
+
+- `UIA_Browser_Example02_EdgeScrolling.ahk`: A file that demonstrates how to use the UIA-v2 model to scroll through a web page in Microsoft Edge.
+
+# Common thqby Classes 
+
+### JSON.ahk 
+https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
+
+This class provides methods for working with JSON data, such as parsing, generating, and manipulating.
+
+Some of the methods include:
+- `Parse()` - Parses a JSON string into an object.
+- `Generate()` - Generates a JSON string from an object.
+- `Manipulate()` - Manipulates a JSON object.
 
 ### WinHttpRequest.ahk
 https://github.com/thqby/ahk2_lib/blob/master/WinHttpRequest.ahk
@@ -310,37 +301,7 @@ Simple implementation of a socket Server and Client. Handles asynchronous messag
 `Socket.close:` Closes the socket.
 
 `Socket.bind:` Binds the socket to the specified port.
-
-`Socket.listen:` Listens for connections on the socket.
-
-`Socket.accept:` Accepts a connection on the socket.
-
-`Socket.getpeername:` Gets the name of the peer connected to the socket.
-
-`Socket.getsockname:` Gets the name of the socket.
-
-`Socket.getpeerport:` Gets the port of the peer connected to the socket.
-
-`Socket.getsockport:` Gets the port of the socket.
-
-`Socket.setoption:` Sets an option for the socket.
-
-`Socket.getoption:` Gets an option for the socket.
-
-`Socket.geterror:` Gets the error code for the last operation on the socket.
-
-`Socket.clearerror:` Clears the error code for the socket.
-
-`Socket.shutdown:` Shutdowns the socket.
-
-`Socket.ioctl:` Performs an I/O control operation on the socket.
-
-`Socket.select:` Waits for a socket to become ready for reading, writing, or both.
-
-`Socket.wsastartup:` Initializes the Windows socket API.
-
-`Socket.wsacleanup:` Cleans up the Windows socket API.
-
+ 
 
 
 ## Webview2.ahk
@@ -356,67 +317,3 @@ The WebView2 Runtime is built into Win10(latest version) and Win11 and can be ea
 `WebView2.navigate:` Navigates the WebView2 control to the specified URL.
 
 `WebView2.loadHtml:` Loads the specified HTML into the WebView2 control.
-
-`WebView2.evaluateScript:` Evaluates the specified JavaScript in the WebView2 control.
-
-`WebView2.getHtml:` Gets the HTML of the current page in the WebView2 control.
-
-`WebView2.getTitle:` Gets the title of the current page in the WebView2 control.
-
-`WebView2.getUrl:` Gets the URL of the current page in the WebView2 control.
-
-`WebView2.getSettings:` Gets the settings for the WebView2 control.
-
-`WebView2.setSettings:` Sets the settings for the WebView2 control.
-
-`WebView2.addScript:` Adds a script to the WebView2 control.
-
-`WebView2.removeScript:` Removes a script from the WebView2 control.
-
-`WebView2.getScripts:` Gets the scripts in the WebView2 control.
-
-`WebView2.addStyle:` Adds a style to the WebView2 control.
-
-`WebView2.removeStyle:` Removes a style from the WebView2 control.
-
-`WebView2.getStyles:` Gets the styles in the WebView2 control.
-
-`WebView2.getDocument:` Gets the document for the current page in the WebView2 control.
-
-`WebView2.getWindow:` Gets the window for the current page in the WebView2 control.
-
-`WebView2.getFrame:` Gets the frame for the current page in the WebView2 control.
-
-`WebView2.getFrames:` Gets the frames for the current page in the WebView2 control.
-
-`WebView2.getCookies:` Gets the cookies for the current page in the WebView2 control.
-
-`WebView2.setCookies:` Sets the cookies for the current page in the WebView2 control.
-
-`WebView2.clearCookies:` Clears the cookies for the current page in the WebView2 control.
-
-`WebView2.getHistory:` Gets the history for the current page in the WebView2 control.
-
-`WebView2.goBack:` Goes back one page in the history for the current page in the WebView2 control.
-
-`WebView2.goForward:` Goes forward one page in the history for the current page in the WebView2 control.
-
-`WebView2.reload:` Reloads the current page in the WebView2 control.
-
-`WebView2.stop:` Stops loading the current page in the WebView2 control.
-
-`WebView2.zoomIn:` Zooms in on the current page in the WebView2 control.
-
-`WebView2.zoomOut:` Zooms out on the current page in the WebView2 control.
-
-`WebView2.resetZoom:` Resets the zoom level for the current page in the WebView2 control.
-
-`WebView2.fullScreen:` Enters full screen mode for the current page in the WebView2 control.
-
-`WebView2.exitFullScreen:` Exits full screen mode for the current page in the WebView2 control.
-
-`WebView2.print:` Prints the current page in the WebView2 control.
-
-`WebView2.dispose:` Disposes of the WebView2 control.
-
-
