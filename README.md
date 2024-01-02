@@ -30,6 +30,45 @@ Credits are included in each file, and thank you thqby for the original repo abo
 
 I'm just getting started, expect this to expand soon. 
 
+## Gui Libraries
+
+**Neutron Webview2 ahk** - [viewtopic.php?t=76865](https://www.autohotkey.com/boards/viewtopic.php?t=76865)\
+Discover "AutoHotkey Web GUIs on Steroids" with Neutron Webview2 ahk. This forum thread discusses its features and functionalities, now available for version 2 of AutoHotkey.
+
+**Easy AutoGUIv2** - [viewtopic.php?t=116159](https://www.autohotkey.com/boards/viewtopic.php?t=116159)\
+Explore Easy AutoGUIv2, a popular GUI library, through this forum thread. Learn about its capabilities and how it can enhance AutoHotkey GUI development.
+
+**Win11<=Darkmode [viewtopic.php?t=115952](https://www.autohotkey.com/boards/viewtopic.php?t=115952)**
+
+**XCGUI** - [GitHub Repository](<https://github.com/thqby/ahk2_lib/tree/master/XCGUI>\
+Visit the GitHub repository for XCGUI, an AutoHotkey library that provides extended GUI functionality. Dive into the code and documentation to understand its usage and features.
+
+**CreateImageButton**() - [viewtopic.php?f=83&t=93339](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=93339)\
+Learn about creating image buttons using GDI buttons in this forum thread. Explore examples, discussions, and insights from the AutoHotkey community.
+
+**GuiControlIcon**() - [viewtopic.php?f=83&t=115871](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=115871)\
+Discover how to set the icon of a GUI control with GuiControlIcon. This forum thread provides details, examples, and discussions on incorporating icons into your AutoHotkey GUIs.
+
+Object Oriented Responsive **GuiResizer**() - [viewtopic.php?f=83&t=113921&hilit=gui](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113921&hilit=gui)\
+Explore an excellent shortcut for creating responsive GUIs with the Object Oriented Responsive GuiResizer. This forum thread offers insights, code snippets, and discussions on making GUIs adaptable to different screen sizes.
+
+**SkinSharpv2** - [viewtopic.php?f=83&t=116251&hilit=gui](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=116251&hilit=gui)\
+Discover SkinSharpv2, a GUI theme skinning library, in this AutoHotkey forum thread. Learn how to enhance the visual appeal of your GUIs through skinning techniques and discussions.
+
+**ExampleSwitchControls** - [viewtopic.php?f=83&t=115868&hilit=gui](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=115868&hilit=gui)\
+This forum thread provides insights into switching between different GUI controls using ExampleSwitchControls. Explore examples, code snippets, and discussions to improve your AutoHotkey GUI navigation.
+
+**Scrollable Gui** - [viewtopic.php?f=83&t=112708&hilit=gui](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=112708&hilit=gui)\
+Learn how to create scrollable GUIs in AutoHotkey through this forum thread. Explore discussions, examples, and insights into implementing scroll functionality for improved user interfaces.
+
+**Template Gui** - [viewtopic.php?f=83&t=123801](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=123801)\
+- Added Resize option for main GUI.\
+- Added map object to store the GUI values.\
+- Added open Main GUI when tray icon is double-clicked.
+
+**`(listview`) LV_Colors **- [viewtopic.php?f=83&t=93922](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=93922)\
+- Flexible color pallet for listview GUIs
+
 ## JXON.ahk 
 -  Source - https://github.com/TheArkive/JXON_ahk2
 
