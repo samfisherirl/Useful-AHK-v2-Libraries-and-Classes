@@ -180,10 +180,42 @@ https://github.com/thqby/ahk2_lib/blob/master/WinHttpRequest.ahk
 
 This class provides methods for working with Windows HTTP requests, such as sending and receiving data.
 
-Some of the methods include:
-- `Send()` - Sends an HTTP request.
-- `Receive()` - Receives an HTTP response.
-- `ManageConnections()` - Manages HTTP connections.
+```ahk
+#Include WinHttpRequest.ahk ; Include the WinHttpRequest class
+
+; Instantiate an object of the WinHttpRequest class
+whr := new WinHttpRequest()
+
+; Define custom event handlers
+whr.OnError := Func("CustomOnError").Bind(whr)
+whr.OnResponseDataAvailable := Func("CustomOnResponseDataAvailable").Bind(whr)
+whr.OnResponseStart := Func("CustomOnResponseStart").Bind(whr)
+whr.OnResponseFinished := Func("CustomOnResponseFinished").Bind(whr)
+
+; Define custom event handler functions
+CustomOnError(req, errCode, errDesc) {
+    MsgBox("Error occurred: " . errDesc)
+}
+
+CustomOnResponseDataAvailable(req, safeArray) {
+    ; Handle response data availability
+}
+
+CustomOnResponseStart(req, status, contentType) {
+    ; Handle response start event
+}
+
+CustomOnResponseFinished(req) {
+    ; Handle response finished event
+}
+
+; Make a GET request to a URL
+response := whr.request("https://www.example.com")
+
+MsgBox("Response: " . response)
+
+return
+```
 
 ### Winhttp.ahk
 https://github.com/thqby/ahk2_lib/blob/master/Winhttp.ahk
