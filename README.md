@@ -184,7 +184,7 @@ This class provides methods for working with Windows HTTP requests, such as send
 #Include WinHttpRequest.ahk ; Include the WinHttpRequest class
 
 ; Instantiate an object of the WinHttpRequest class
-whr := new WinHttpRequest()
+whr := WinHttpRequest()
 
 ; Define custom event handlers
 whr.OnError := Func("CustomOnError").Bind(whr)
