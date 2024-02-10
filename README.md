@@ -188,9 +188,9 @@ whr := new WinHttpRequest()
 
 ; Define custom event handlers
 whr.OnError := Func("CustomOnError").Bind(whr)
-whr.OnResponseDataAvailable := Func("CustomOnResponseDataAvailable").Bind(whr)
-whr.OnResponseStart := Func("CustomOnResponseStart").Bind(whr)
-whr.OnResponseFinished := Func("CustomOnResponseFinished").Bind(whr)
+whr.OnResponseDataAvailable := CustomOnResponseDataAvailable.Bind(whr)
+whr.OnResponseStart := CustomOnResponseStart.Bind(whr)
+whr.OnResponseFinished := CustomOnResponseFinished.Bind(whr)
 
 ; Define custom event handler functions
 CustomOnError(req, errCode, errDesc) {
