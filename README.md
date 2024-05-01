@@ -9,6 +9,7 @@ Best developer resources:
 - [G33kDude](https://github.com/G33kDude)
 - [JNizM/ahk-scripts-v2](https://github.com/jNizM/ahk-scripts-v2)
 - [LargestAHKLib](https://github.com/Ixiko/AHK-libs-and-classes-collection/tree/master/AHK_V2)
+- ahkv2 definition rewrite https://github.com/GroggyOtter/ahkv2_definition_rewrite 
 - among others
 
 My goal is to centralize, as well as add examples, a readme when missing, and english translations for comments. 
